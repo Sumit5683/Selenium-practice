@@ -34,6 +34,7 @@ public class Amazon_Apple {
 		Thread.sleep(5000);
 		driver.findElement(By.name("password")).sendKeys("You_Know_Nothing");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		driver.close();
 		
 
 	}
